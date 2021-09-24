@@ -1,5 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe Agent, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  context 'Add New Agent' do
+    it 'Create a new agent' do
+      expect{ Agent.create(name: 'Agent 9000', email: 'agent9000@user.com') }.to change(Agent, :count).by(1)
+    end
+  end
 end

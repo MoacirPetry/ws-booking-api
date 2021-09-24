@@ -7,9 +7,11 @@ RSpec.describe Agent, type: :model do
     end
   end
   # TODO needed to test the associations
-  # context 'Associations' do
-  #   it 'have_many?' do
-  #     is_expected.to have_many(:users)
-  #   end
-  # end
+  context 'Associations' do
+    it 'have_many?' do
+      is_expected.to have_many(:bookings)
+      # TODO review with colleague
+      # is_expected.to have_many(:users)
+    end
+  end
 end

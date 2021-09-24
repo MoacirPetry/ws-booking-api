@@ -7,9 +7,9 @@ RSpec.describe User, type: :model do
     end
   end
 
-  # context 'Associations' do
-  #   it 'have_many?' do
-  #     is_expected.to have_many(:bookings)
-  #   end
-  # end
+  context 'Associations' do
+    it 'have_many?' do
+      is_expected.to have_many(:bookings)
+    end
+  end
 end

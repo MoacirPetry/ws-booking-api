@@ -7,6 +7,8 @@
 <a href="https://codeclimate.com/github/MoacirPetry/ws-booking-api/maintainability"><img src="https://api.codeclimate.com/v1/badges/384a16cdf393577c51b0/maintainability" /></a>
 <a href="https://codeclimate.com/github/MoacirPetry/ws-booking-api/test_coverage"><img src="https://api.codeclimate.com/v1/badges/384a16cdf393577c51b0/test_coverage" /></a>
 
+[![Build Status](https://app.travis-ci.com/MoacirPetry/ws-booking-api.svg?branch=main)](https://app.travis-ci.com/MoacirPetry/ws-booking-api)
+
 # WS Booking API
 
 This is an API app where Users can be Booked by Agents.

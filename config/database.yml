@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: ws-booking-api
+  password: <%= ENV['WS-BOOKING-API_DATABASE_PASSWORD'] %>
+
+development:
+  <<: *default
+  database: ws-booking-api_development
+
+test:
+  <<: *default
+  database: ws-booking-api_test
+
+production:
+  <<: *default
+  database: ws-booking-api_production
+

@@ -5,6 +5,7 @@
   <img alt="Ruby on Rails" src="https://img.shields.io/badge/Rails-5.2.6-brightgreen" target="_blank">
 </a>
 <a href="https://codeclimate.com/github/MoacirPetry/ws-booking-api/maintainability"><img src="https://api.codeclimate.com/v1/badges/384a16cdf393577c51b0/maintainability" /></a>
+<a href="https://codeclimate.com/github/MoacirPetry/ws-booking-api/test_coverage"><img src="https://api.codeclimate.com/v1/badges/384a16cdf393577c51b0/test_coverage" /></a>
 
 # WS Booking API
 

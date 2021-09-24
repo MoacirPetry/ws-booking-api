@@ -1,24 +1,24 @@
-# README
+<a href="https://www.ruby-lang.org/pt/">
+  <img alt="Ruby" src="https://img.shields.io/badge/Ruby-2.6.7-brightgreen" target="_blank">
+</a>
+<a href="https://rubyonrails.org/">
+  <img alt="Ruby on Rails" src="https://img.shields.io/badge/Rails-5.2.6-brightgreen" target="_blank">
+</a>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# WS Booking API
 
-Things you may want to cover:
+This is an API app where Users can be Booked by Agents.
 
-* Ruby version
+# Set up the environment
 
-* System dependencies
+1 - Git Clone
 
-* Configuration
+2 - Bundle Install
 
-* Database creation
+3 - `rails db:create db:migrate`
 
-* Database initialization
+>Note: Change in **config/database.yml** the **username** and **password** regarding your Database.
 
-* How to run the test suite
+4 - Run `rake setup:create n=9`, it will create fake values and populate in DB.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+5 - 

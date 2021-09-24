@@ -29,6 +29,14 @@ This is an API app where Users can be Booked by Agents.
 
 6 - Access the http://0.0.0.0:3000/users to see the app working.
 
+7 - Create **booking**
+
+Send a POST method changing the user_id and agent_id like this: `http://0.0.0.0:3000/booking?start_at=2023-09-25 00:00:00&finish_at=2023-10-25 00:00:00&user_id=73&agent_id=48`
+
+8 - Delete **booking**
+
+Send a DELETE method changing the id like this: `http://0.0.0.0:3000/booking?id=19`
+
 # Testing
 
 Run `rspec spec` to check the testings.

@@ -3,7 +3,7 @@ class Api::V1::BookingController < ApplicationController
   def create
     @booking = Booking.new(booking_params)
     if @booking.save
-      @booking
+      render json: { status: :ok, message: "Booking #{@booking.id} created!!" }
     else
       render json: @booking.errors, status: :unprocessable_entity
     end

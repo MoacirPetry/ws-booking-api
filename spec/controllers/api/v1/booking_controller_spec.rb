@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe Api::V1::BookingController, type: :controller do
 
-  # TODO refactor
+  # OPTIMIZE refactor or improve
   describe 'POST #create' do
     it 'returns http unprocessable_entity' do
       booking_params = FactoryBot.attributes_for(:booking)

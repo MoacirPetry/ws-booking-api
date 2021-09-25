@@ -12,7 +12,6 @@ RSpec.describe 'Api::V1::Bookings', type: :request do
   end
 
   describe 'DELETE /destroy' do
-    # TODO it needed to be implemented
     it 'returns http success' do
       booking = create(:booking)
       delete "/booking?id=#{booking.id}"
